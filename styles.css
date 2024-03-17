@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(3, 23, 22);
+    color: rgb(155, 128, 77);
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    font-family: "Playfair", serif;
+    text-align: center;
+}
+
+.bold {
+    font-weight: 800;
+    color: rgb(166, 121, 36);
+}
+
+#tribute-info {
+    padding: 10px 25px;
+}
+
+.lighter {
+    background-color: rgb(5, 33, 32);
+    padding: 10px 0;
+}
+
+figure {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-top: 12px solid rgb(1, 25, 25);
+    border-left: 12px solid rgb(1, 25, 25);
+    border-right: 12px solid rgb(1, 25, 25);
+}
+
+figcaption {
+    font-size: 12px;
+    text-align: end;
+    padding-right: 16px;
+    background-color: rgb(1, 25, 25);
+}
+
+.chronological {
+    width: 70%;
+    max-width: 600px;
+    margin: 40px auto;
+    border: 1px solid rgb(103, 75, 23);
+    padding: 15px;
+    text-align: left;
+}
+
+.chronological p {
+    text-align: center;
+    font-size: larger;
+}
+
+.chronological ul {
+    list-style-type: circle;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+a {
+    color: rgb(239, 210, 174);
+    font-weight: 800;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(10, 174, 122);
+}
